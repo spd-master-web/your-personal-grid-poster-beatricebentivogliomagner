@@ -6,25 +6,33 @@ body {
   margin: 0;
   font-family: monospace;
   background-color: yellow;
+
 }
 
 h1{
   font-size: 80px;
+  color: blue;
+  text-shadow: 2px 2px 4px fuchsia;
 }
 
 h2 {
   font-size: 50px;
 }
 
-.p {
+p {
   display: grid;
+  font-size: 36px;
+  color: blue;
   
 }
 
+
 /* GRID */
+
 .grid{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 1em;
 
@@ -38,11 +46,26 @@ h2 {
   text-align: center;
 }
 
-.grid-who, .grid-contact {
+.grid-image{
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.grid-who, .grid-contact, .grid-image {
+  border: 2px solid blue;
+  border-radius: 30%;
+  box-shadow: 2px 2px 20px fuchsia;
+
   padding: 2em;
   display: grid;
   
-
-  
 }
 
+
+.grid-image img{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
