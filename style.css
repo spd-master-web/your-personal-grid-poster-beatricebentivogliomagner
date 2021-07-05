@@ -53,6 +53,7 @@ p {
 .grid-image{
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 
 
@@ -63,7 +64,7 @@ p {
   box-shadow: 1px 1px 10px fuchsia;
 
   padding: 2em;
-  display: grid;
+  
   text-align: center;
   
 }
